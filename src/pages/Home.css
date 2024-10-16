@@ -1,0 +1,126 @@
+.baby-accessories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-carousel {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel .slide {
+    background: none; /* Removes default carousel background */
+}
+
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.text-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Light overlay on text */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-content h1 {
+    font-size: 2.5em;
+    color: #3498db;
+    margin: 10px 0;
+}
+
+.text-content h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.shop-now-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.side-banners {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px; /* Add space between the banners */
+}
+
+.banner {
+    width: 48%;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    color: white; /* Ensures text is visible on dark backgrounds */
+}
+
+.banner h2 {
+    font-size: 2em;
+    color: #f39c12;
+    margin: 10px 0;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #7f8c8d;
+}
+
+.banner p {
+    font-size: 1em;
+    color: #3498db;
+}
+
+/* Background images for side banners */
+.banner.baby-strollers {
+    background-image: url('https://i.postimg.cc/W4SndSzB/slider-5-900x.webp');
+}
+
+.banner.baby-pacifier {
+    background-image: url('https://i.postimg.cc/LshTZLPh/slider-4-900x.webp');
+}
+
+.shop-now-carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+}
+
+
+
+.carousel-slides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: white; /* Adjust based on your text color preference */
+    text-align: center; /* Center the text horizontally */
+    background-size: cover;
+    background-position: center;
+}
